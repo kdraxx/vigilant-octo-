@@ -12,7 +12,7 @@ print()
 
 while True:
     print("Enter 1 for Espresso\nEnter 4 for Latte\nEnter 9 for Cappuccino")
-    want = int(input("Choose the coffee you want:"))
+    want = str(int(input("Choose the coffee you want:")))
     if want == 1:
         print("The price of espresso is: ", espresso["Price"], "/-", sep="")
         print("Please insert the coins in the correct box!")
@@ -120,3 +120,4 @@ while True:
             else:
                 print("Incorrect password!")
                 break
+
